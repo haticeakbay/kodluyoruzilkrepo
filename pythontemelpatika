@@ -1,0 +1,38 @@
+1- Bir listeyi düzleştiren (flatten) fonksiyon yazın. Elemanları birden çok katmanlı listelerden ([[3],2] gibi) oluşabileceği gibi, non-scalar verilerden de oluşabilir.
+
+
+ornek2 = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+newlist = []
+def flat(lıste):
+  for elem in lıste:
+    if type(elem) != list:
+      newlist.append(elem)
+    elif type(elem) == list:
+      flat(elem)
+      """for kar in elem:
+        if type(kar) != list:
+          newlist.append(kar)
+        elif type(kar) == list:
+          for küm in kar:
+            if type(küm) != list:
+              newlist.append(küm)
+            elif type(küm) == list:
+              for kem in küm:
+                newlist.append(kem)"""
+  return newlist
+
+print(flat(ornek2))
+
+
+2- Verilen listenin içindeki elemanları tersine döndüren bir fonksiyon yazın. Eğer listenin içindeki elemanlar da liste içeriyorsa onların elemanlarını da tersine döndürün.
+
+
+ornek = [[1, 2], [3, 4], [5, 6, 7]]
+def ters(liste):
+  yeni_liste = liste[::-1]
+  for element in yeni_liste:
+    if type(element) == list:
+      element = element.reverse()
+  return yeni_liste
+
+print(ters(ornek))
