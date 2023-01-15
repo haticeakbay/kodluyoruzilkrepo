@@ -1,0 +1,13 @@
+Yapay Zeka’da Bias
+
+Bias yanlılık, önyargı, hoşgörüsüzlük ve adaletsizlik kavramları ile ilişkilendirilir, bir fikir ya da şey hakkında oransız ve anlamsız bir şekilde olumlu ya da 
+olumsuz tutumdur. Veri toplamada ve İstatistik alanında ise toplanılan verinin genel popülasyonu temsil etmemesidir. Bu tür bir bias sonuca güvenilirliği azaltır. 
+Yapay zeka’da bias iki sebepten görülebilir bunlardan ilki modelin biaslı veri ile eğitilmesi sebebi ile görülür, diğeri ise modelin kodlamacının biasları ile 
+oluşturulmasıdır. Aslında bakıldığında iki bias türünde de toplumsal ya da bireysel varsayımlarımızın ve normlarımızın, düşüncemizde kör noktalara veya belirli 
+beklentilere sahip olmamıza neden olması yer alır. Toplumsal beklentilerimiz, verilerimizi oluşturan kararlarımız algoritmik biası önemli ölçüde etkiler, 
+algoritmalar da bir sonraki sonuçları böylece bu iki kavram adeta birbirini besleyen kısır bir döngüye girer. 
+
+Tabi yapay zekada kullanılan modeller de eğer veri biaslı ise sonuçların da önyargılı olduğu görülür çünkü makinelerin kendilerine ait görüşleri olmadığı için 
+beslendikleri veriler arasındaki ilişkileri, insanların daha önceki kararlarını yansıtan verileri öğrenir ve bunlar arasındaki bağlantılar üzerinden öğrenmeyi 
+gerçekleştirir yani ön yargı yapay zekadan gelmez insanlardan gelir. Peki bu biasın etkisini nasıl azaltabiliriz?  Modelimizin öğrenmesini farklı veri setleri 
+ile genişletebiliriz, modeli oluşturması için farklı arka planı değerleri olan insanlar birlikte çalışabilir. 
